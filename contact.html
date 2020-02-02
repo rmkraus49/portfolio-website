@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ryan Kraus - Portfolio</title>
+  <link rel="shortcut icon" href="img/tree-favicon.png" type="image/x-icon"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+
+<body>
+
+<header class="page-header">
+  <img class="page-header__item" src="img/name-logo.jpg" id="name-logo" alt="ryan kraus name logo">
+  <!--navigation -->
+  <nav class="page-header__item">
+    <ul role="menubar" class="navigation-list">
+      <li role="presentation">
+        <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+      </li>
+      <li role="presentation">
+        <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+      </li>
+      <li role="presentation">
+        <a href="contact.html" role="menuitem" class="navigation-list__item--active">Contact</a>
+      </li>
+      <li role="presentation">
+        <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<section class="contact-section">
+  <h1>Contact</h1>
+  <p>
+    Ryan Kraus<br>
+    Philadelphia, PA<br>
+    <a href="tel:+12039622099">Cell: 203-962-2099</a><br>
+    <a href="mailto:rmkraus49@gmail.com">rmkraus49@gmail.com</a><br><br>
+    <a href="mailto:rmkraus49@gmail.com">Contact me</a>
+  </p>
+  <form action="" method="post" id="contact-form">
+    <label class="standard-label" for="contact-email">Email: </label>
+    <input type="email" id="contact-email" required>
+
+    <label class="standard-label" for="contact-tel">Telephone: </label>
+    <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+
+    <label class="standard-label" for="contact-message">Message: </label>
+    <textarea id="contact-message" maxlength="240" required></textarea>
+
+    <input type="submit" value="Send message">
+  </form>
+</section>
+
+<footer class="page__footer">
+  <p>
+    Find me on:
+  </p>
+  <div class="social-media">
+    <a href="#"><img src="img/github.svg" class="social__icon" alt="Github"></a>
+    <a href="#"><img src="img/twitter.svg" class="social__icon" alt="Twitter"></a>
+    <a href="#"><img src="img/linkedin.svg" class="social__icon" alt="LinkedIn"></a>
+  </div>
+</footer>
+
+<script src="js/tota11y.min.js"></script>
+
+</body>
+
+</html>
