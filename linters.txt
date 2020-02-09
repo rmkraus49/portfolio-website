@@ -1,4 +1,12 @@
+Text editor used:
+  Atom
+
 Linters used:
   linter-stylelint
   w3c validation
+    --w3c validation treated all CSS variables as errors; I used it for the HTML pages and used stylelint for the css
   linter (base linter for atom)
+
+also used for CSS:
+  https://madlittlemods.github.io/postcss-css-variables/playground/
+  http://autoprefixer.github.io/
