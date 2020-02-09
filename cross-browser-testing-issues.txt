@@ -1,4 +1,7 @@
-No issues in Firefox, Chrome, or Edge
+No issues in Firefox, Chrome, Safari (borrowed a mac) or Edge
 
-Grid did not display first row in IE11
-  
+IE11 issues:
+SVG/CSS animation did not function
+  Researched this issue - I was unable to find a solution other than comments that IE11 does not support animating SVG images with CSS
+All grid cells except the last child collapse onto each other
+  Spent several hours trying to resolve this but couldn't find a fix that worked.

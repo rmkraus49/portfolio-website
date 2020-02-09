@@ -28,40 +28,6 @@ active-color: #489c79
   box-sizing: border-box;
 }
 
-@keyframes color-change {
-  0% {
-    fill: var(--sun-animation-0);
-  }
-
-  50% {
-    fill: var(--sun-animation-50);
-  }
-
-  100% {
-    fill: var(--sun-animation-100);
-  }
-}
-
-@keyframes cloud-move {
-  from {
-    transform: translate(0, 50px);
-  }
-
-  to {
-    transform: translate(200px, 50px);
-  }
-}
-
-@keyframes cloud-move-reverse {
-  from {
-    transform: translate(446px, 48px);
-  }
-
-  to {
-    transform: translate(100px, 48px);
-  }
-}
-
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: var(--standard);
@@ -278,6 +244,40 @@ button:focus,
 .stamford-illustration {
   display: block;
   margin: auto;
+}
+
+@keyframes color-change {
+  0% {
+    fill: var(--sun-animation-0);
+  }
+
+  50% {
+    fill: var(--sun-animation-50);
+  }
+
+  100% {
+    fill: var(--sun-animation-100);
+  }
+}
+
+@keyframes cloud-move {
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
+}
+
+@keyframes cloud-move-reverse {
+  from {
+    transform: translate(446px, 48px);
+  }
+
+  to {
+    transform: translate(100px, 48px);
+  }
 }
 
 .sun {
