@@ -1,0 +1,4 @@
+Linters used:
+  linter-stylelint
+  w3c validation
+  linter (base linter for atom)
