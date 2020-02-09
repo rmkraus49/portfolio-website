@@ -58,9 +58,9 @@ a:visited {
   color: var(--visited-color);
 }
 
-
-a:hover, a:focus {
-  /*no undlerlining when hovering over a link*/
+a:hover,
+a:focus {
+  /* no undlerlining when hovering over a link */
   text-decoration: none;
 }
 
@@ -69,7 +69,8 @@ a:active {
   color: var(--active-color);
 }
 
-button, .button {
+button,
+.button {
   border: none;
   display: inline-block;
   font-family: inherit;
@@ -78,6 +79,7 @@ button, .button {
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
+
   /* gives button a botom border with width 2px, type solid, and color in RGBA format; RGBA to allow Alpha channel to regulate transparency; 1 is totally opaque, 0 is totally transparent */
   border-bottom: 2px solid var(--button-border-bottom-color);
   transition: 0.2s opacity;
@@ -123,7 +125,7 @@ button:focus,
 
 .experience-table {
   width: 50%;
-  margin: 0px auto 10px auto;
+  margin: 0 auto 10px;
   text-align: center;
 }
 
@@ -184,7 +186,7 @@ button:focus,
 .grid__item {
   background-color: var(--light-grey);
   padding: 10px;
-  margin: 0px;
+  margin: 0;
   width: auto;
 }
 
@@ -248,9 +250,11 @@ button:focus,
   0% {
     fill: var(--sun-animation-0);
   }
+
   50% {
     fill: var(--sun-animation-50);
   }
+
   100% {
     fill: var(--sun-animation-100);
   }
@@ -260,6 +264,7 @@ button:focus,
   from {
     transform: translate(0, 50px);
   }
+
   to {
     transform: translate(200px, 50px);
   }
@@ -269,6 +274,7 @@ button:focus,
   from {
     transform: translate(446px, 48px);
   }
+
   to {
     transform: translate(100px, 48px);
   }

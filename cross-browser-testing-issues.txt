@@ -1,0 +1,4 @@
+No issues in Firefox, Chrome, or Edge
+
+Grid did not display first row in IE11
+  
