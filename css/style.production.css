@@ -346,6 +346,7 @@ button:focus,
 }
 
 .sun {
+  animation-play-state: running;
   -webkit-animation-duration: 20s;
   animation-duration: 20s;
   -webkit-animation-name: color-change;
