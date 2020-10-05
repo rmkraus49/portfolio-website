@@ -342,41 +342,6 @@ button:focus,
   }
 }
 
-.sun {
-  -webkit-animation-duration: 20s;
-          animation-duration: 20s;
-  -webkit-animation-name: color-change;
-          animation-name: color-change;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-}
-
-.cloud-front {
-  -webkit-animation-duration: 15s;
-          animation-duration: 15s;
-  -webkit-animation-name: cloud-move;
-          animation-name: cloud-move;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-}
-
-.cloud-back {
-  -webkit-animation-duration: 15s;
-          animation-duration: 15s;
-  -webkit-animation-name: cloud-move-reverse;
-          animation-name: cloud-move-reverse;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+.app-screenshot {
+  max-width: 250px;
 }
