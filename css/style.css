@@ -94,6 +94,10 @@ button:focus,
   opacity: 0.8;
 }
 
+section {
+  display: block;
+}
+
 .button__secondary {
   background-color: var(--secondary-color);
   color: var(--dark-grey);
@@ -117,16 +121,18 @@ button:focus,
   margin: 10px;
 }
 
-.about-section {
-  display: block;
+.skills-section {
   padding: 10px;
-  margin: 0 auto;
+  margin: 10px;
 }
 
 .experience-table {
-  width: 50%;
-  margin: 0 auto 10px;
-  text-align: center;
+  text-align: left;
+}
+
+td,
+th {
+  padding-left: 15px;
 }
 
 .contact-section {
@@ -134,7 +140,7 @@ button:focus,
   margin: 10px;
 }
 
-.index-section {
+.intro-section {
   padding: 10px;
   margin: 10px;
 }
@@ -200,6 +206,7 @@ button:focus,
 .social__icon {
   height: 30px;
   width: 30px;
+  margin: 0px 10px 0px 10px;
 }
 
 @media all and (max-width: 750px) {
@@ -217,13 +224,6 @@ button:focus,
   }
 }
 
-.cv-button-container {
-  display: block;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-
 @media all and (min-width: 500px) and (max-width: 750px) {
   .grid {
     grid-template-columns: 1fr 1fr;
@@ -239,40 +239,6 @@ button:focus,
 .stamford-illustration {
   display: block;
   margin: auto;
-}
-
-@keyframes color-change {
-  0% {
-    fill: var(--sun-animation-0);
-  }
-
-  50% {
-    fill: var(--sun-animation-50);
-  }
-
-  100% {
-    fill: var(--sun-animation-100);
-  }
-}
-
-@keyframes cloud-move {
-  from {
-    transform: translate(0, 50px);
-  }
-
-  to {
-    transform: translate(200px, 50px);
-  }
-}
-
-@keyframes cloud-move-reverse {
-  from {
-    transform: translate(446px, 48px);
-  }
-
-  to {
-    transform: translate(100px, 48px);
-  }
 }
 
 .app-screenshot {

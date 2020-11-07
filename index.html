@@ -20,30 +20,164 @@
     <nav class="page-header__item">
       <ul role="menubar" class="navigation-list">
         <li role="presentation">
-          <a href="index.html" role="menuitem" class="navigation-list__item--active">Home</a>
-        </li>
-        <li role="presentation">
-          <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
-        </li>
-        <li role="presentation">
-          <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
-        </li>
-        <li role="presentation">
-          <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+          <a href="#work" role="menuitem" class="navigation-list__item">View Work</a>
         </li>
       </ul>
     </nav>
   </header>
 
-  <section class="index-section">
+  <section class="intro-section" id="intro">
     <!-- add portrait image here -->
     <img src="img/rk_headshot.jpg" class="profile__portrait" alt="Ryan Kraus headshot">
     <h1 id="hello">Hello World!</h1>
     <p>
-      My name is Ryan Kraus. I am a <span>web</span> developer based in Philadelphia.
+      I am a web developer based in Philadelphia, with a background in the equipment leasing &
+      finance industry.
     </p>
-    <a href="work.html">Check out some of my code</a>
+    <div class="contact-info">
+      <h3>
+        Contact Info
+      </h3>
+      <p>
+        Email: <a href="mailto:rmkraus49@gmail.com">rmkraus49@gmail.com</a>
+      </p>
+    </div>
   </section>
+
+  <section class="skills-section" id="skills">
+    <h1>Skills</h1>
+    <table class="experience-table">
+      <thead>
+        <tr>
+          <th>Skill</th>
+          <th>Years of Experience</th>
+          <th>Skill</th>
+          <th>Years of Experience</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>HTML</td>
+          <td>2</td>
+          <td>People Management</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>1</td>
+          <td>Agile & Scrum</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Javascript</td>
+          <td>1</td>
+          <td>Azure DevOps</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>MongoDB</td>
+          <td>1</td>
+          <td>SharePoint Online</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Express</td>
+          <td>1</td>
+          <td>PowerAutomate</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>React</td>
+          <td>1</td>
+          <td>Google Firestore & Firebase</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Angular</td>
+          <td>1</td>
+          <td>AWS Lambda</td>
+          <td>1</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="work-section" id="work">
+    <h1>Work</h1>
+    <div class="grid">
+      <!-- Grid items will live here -->
+      <div class="grid__item">
+        <h2>Fantastic Films</h2>
+        <p>
+          A MERN app including a database, API, and frontend client for info about movies.
+        </p>
+        <div>
+          <img src="./img/fantastic-films-screenshot.png" class="app-screenshot"
+            alt="Fantastic Films screenshot showing movie tiles">
+        </div>
+        <a href="https://fantastic-films.herokuapp.com/">API</a>
+        <a href="https://fantastic-films.herokuapp.com/client/">Client</a>
+        <a href="https://github.com/rmkraus49/movie_api">Github</a>
+      </div>
+      <div class="grid__item">
+        <h2>Quiz App</h2>
+        <p>
+          An Angular app for taking quizzes.
+        </p>
+        <div>
+          <img src="./img/quiz-screenshot.png" class="app-screenshot" alt="Quiz app screenshot showing quiz options">
+        </div>
+        <a href="https://rmkraus49.github.io/my-awesome-quiz-app/welcome">App</a>
+        <a href="https://github.com/rmkraus49/my-awesome-quiz-app">Github</a>
+      </div>
+      <div class="grid__item">
+        <h2>Rick & Morty Knowledgebase</h2>
+        <p>
+          A simple app using jQuery.
+        </p>
+        <div>
+          <img src="./img/rick-morty-kb-screenshot.png" class="app-screenshot"
+            alt="Rick and Morty Knowledgebase app screenshot showing character list">
+        </div>
+        <a href="https://rmkraus49.github.io/rickandmorty-knowledgebase/">App</a>
+        <a href="https://github.com/rmkraus49/rickandmorty-knowledgebase">Github</a>
+      </div>
+      <div class="grid__item">
+        <h2>To-do List</h2>
+        <p>
+          A to-do list app using Vue.js.
+        </p>
+        <div>
+          <img src="./img/todo-screenshot.png" class="app-screenshot"
+            alt="To-do list app screenshot showing option to add a new item">
+        </div>
+        <a href="https://rmkraus49.github.io/todo/">App</a>
+        <a href="https://github.com/rmkraus49/todo">Github</a>
+      </div>
+      <div class="grid__item">
+        <h2>Meetup App</h2>
+        <p>
+          A React progressive web app using the Meetup API.
+        </p>
+        <div>
+          <img src="./img/meetup-screenshot.png" class="app-screenshot" alt="Meetup app screenshot">
+        </div>
+        <a href="https://github.com/rmkraus49/meetup">Github</a>
+      </div>
+      <div class="grid__item">
+        <h2>Chat App</h2>
+        <p>
+          A React Native chat app, using GiftedChat and Google Firebase.
+        </p>
+        <div>
+          <img src="./img/chat-app-screenshot.png" class="app-screenshot" alt="Chat app screenshot">
+        </div>
+        <a href="https://github.com/rmkraus49/meetup">Github</a>
+        <a href="./img/chat-app-recording.mp4" download="Chat-App-Recording">Recording</a>
+      </div>
+    </div>
+  </section>
+
 
   <!--
   <a href="#">Default Link</a>
@@ -57,11 +191,10 @@
     </p>
     <div class="social-media">
       <a href="https://github.com/rmkraus49"><img src="img/github.svg" class="social__icon" alt="Github"></a>
+      <a href="https://www.linkedin.com/in/ryan-kraus/"><img src="img/linkedin.svg" class="social__icon"
+          alt="LinkedIn"></a>
     </div>
   </footer>
-
-  <script src="js/tota11y.min.js"></script>
-  <script src="js/scripts.js"></script>
 
 </body>
 
