@@ -42,12 +42,17 @@ h1 {
 
 h2 {
   font-size: 24px;
-  font-weight: var(--bold);
+  font-weight: var(--standard);
 }
 
 h3 {
   font-size: 18px;
   font-weight: var(--bold);
+}
+
+.section-title {
+  text-align: center;
+  font-weight: var(--standard);
 }
 
 a {
@@ -128,9 +133,13 @@ section {
 
 .experience-table {
   text-align: left;
+  margin: auto;
 }
 
-td,
+td {
+  padding-left: 15px;
+}
+
 th {
   padding-left: 15px;
 }
